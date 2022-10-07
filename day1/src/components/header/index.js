@@ -1,7 +1,9 @@
-export default function Header() {
+import React from 'react'
+
+function index() {
   return (
-    <header>
-      <h1>Başlık</h1>
-    </header>
+    <div></div>
   )
 }
+
+export default index

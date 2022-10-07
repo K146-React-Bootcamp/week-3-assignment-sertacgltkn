@@ -1,17 +1,15 @@
-import React from "react";
-import Header from "./components/header";
-import TodoList from "./components/todo-list";
-// import ContactForm from "./components/contact-form";
+import React from 'react';
+import Header from './components/header'
+import './App.css';
+import TodoList from './components/todo-list';
 
 export default function App() {
-  
-	return (
+
+  return (
     <div className="App">
-      <Header />
-      {/* <ContactForm /> */}
-      <TodoList />
-		</div>
-	);
+        <Header/>
+        <TodoList/>
+    </div>
+  );
 }
 
-//export default App;
